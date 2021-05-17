@@ -24,6 +24,12 @@ The idea here is to classify a Pokemon type based on his statics, such as Life, 
 
 ## Project dependencies
 
+This project was created using Kedro 0.17.3. To install, run:
+
+```
+pip install kedro==0.17.3
+```
+
 To generate or update the dependency requirements for your project:
 
 ```
