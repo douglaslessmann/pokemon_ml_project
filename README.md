@@ -1,5 +1,7 @@
 # Pokemon ML Project
 
+Repo used for training purposes at [Indicum](https://indicium.tech/).
+
 ## What should I read before cloning this repo?
 
 This is an example project to understand how to work with Kedro and MLFlow for machine learning projects. If you are new to Kedro and MLFlow, I highly recommend that you follow these getting started tutorials:
