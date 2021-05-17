@@ -51,7 +51,7 @@ You can run your Kedro project with:
 ```
 kedro run
 ```
-### Pipelien structure
+### Pipeline structure
 
 The pipeline structure of this project is based on what I think is the optimal way of working in ML projects. Here we have a brief description of what expect in each pipeline.
 
