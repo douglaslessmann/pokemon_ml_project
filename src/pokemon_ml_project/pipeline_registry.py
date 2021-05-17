@@ -37,6 +37,7 @@ from pokemon_ml_project.pipelines import data_science as ds
 from pokemon_ml_project.pipelines import model_metrics as mm
 from pokemon_ml_project.pipelines import indicium_predictor as ind_pred
 
+
 def register_pipelines() -> Dict[str, Pipeline]:
     """Register the project's pipelines.
 
@@ -49,7 +50,6 @@ def register_pipelines() -> Dict[str, Pipeline]:
     data_science_pipeline = ds.create_pipeline()
     model_metrics_pipeline = mm.create_pipeline()
     indicium_predictor_pipeline = ind_pred.create_pipeline()
-
 
     return {
         "pp": pre_processing_pipeline,
