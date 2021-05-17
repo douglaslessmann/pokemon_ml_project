@@ -22,6 +22,9 @@ logs/**
 # also keep the example dataset
 !data/01_raw/iris.csv
 
+# also ignore mlruns
+
+mlruns
 
 ##########################
 # Common files
