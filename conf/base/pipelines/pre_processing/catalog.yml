@@ -1,0 +1,7 @@
+pokemon_database_best_generations:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/pokemon_database_best_generations.csv
+
+pokemon_database_best_generations_with_images:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/pokemon_database_best_generations_with_images.csv

@@ -1,0 +1,3 @@
+pokemon_database:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/pokemon.csv

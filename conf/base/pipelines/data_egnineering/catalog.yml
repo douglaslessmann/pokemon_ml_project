@@ -1,0 +1,7 @@
+model_input:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/model_input.csv
+
+label_encoder:
+  type: pickle.PickleDataSet
+  filepath: data/05_model_input/label_encoder.pickle

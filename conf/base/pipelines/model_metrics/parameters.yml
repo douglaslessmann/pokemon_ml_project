@@ -1,0 +1,44 @@
+# Color dictionary for each type
+color_dict: {
+  'ice': '#66EBFF',
+  'grass': '#8ED752',
+  'fire': '#F95643',
+  'psychic': '#FB61B4',
+  'rock': '#CDBD72',
+  'normal': '#BBBDAF',
+  'ground': '#F0CA42',
+  'dragon': '#8B76FF',
+  'fairy': '#F9AEFE',
+  'water': '#53AFFE',
+  'bug': '#C3D221',
+  'fighting': '#A35449',
+  'dark': '#8E6856',
+  'ghost': '#7673DA',
+  'poison': '#AD5CA2',
+  'electric': '#F8E64E',
+  'steel': '#C3C1D7',
+  'flying': '#75A4F9'
+}
+
+# Pokemon num to plot
+pokemon_num: 4
+
+# Pokemon types
+pokemon_type_ice: 'ice'
+pokemon_type_grass: 'grass'
+pokemon_type_fire: 'fire'
+pokemon_type_psychic: 'psychic'
+pokemon_type_rock: 'rock'
+pokemon_type_normal: 'normal'
+pokemon_type_ground: 'ground'
+pokemon_type_dragon: 'dragon'
+pokemon_type_fairy: 'fairy'
+pokemon_type_water: 'water'
+pokemon_type_bug: 'bug'
+pokemon_type_fighting: 'fighting'
+pokemon_type_dark: 'dark'
+pokemon_type_ghost: 'ghost'
+pokemon_type_poison: 'poison'
+pokemon_type_electric: 'electric'
+pokemon_type_steel: 'steel'
+pokemon_type_flying: 'flying'

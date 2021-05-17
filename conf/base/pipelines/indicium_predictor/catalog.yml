@@ -1,0 +1,4 @@
+IndiciumPredictor:
+  type: pickle.PickleDataSet
+  filepath: data/09_predictor/IndiciumPredictor.pickle
+  versioned: true

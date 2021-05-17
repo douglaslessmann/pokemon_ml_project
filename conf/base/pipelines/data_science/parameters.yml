@@ -1,0 +1,17 @@
+test_data_ratio: 0.3
+
+# Models
+primary_type_models:
+  sk_learn_dt:
+    classifier: sklearn.tree.DecisionTreeClassifier
+    params: {
+      'max_depth': [10, 50, 100, 200],
+      'min_samples_leaf': [5, 15, 25, 30]
+      }
+  sk_learn_rf:
+    classifier: sklearn.ensemble.RandomForestClassifier
+    params: {
+      'n_estimators': [50, 100, 200],
+      'max_depth': [10, 50, 100, 200],
+      'min_samples_leaf': [5, 15, 25, 30]
+      }
