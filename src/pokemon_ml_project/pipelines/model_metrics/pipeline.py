@@ -9,8 +9,8 @@ from kedro.pipeline import Pipeline, node
 from .nodes import display_by_type, classification_accurracy
 
 POKEMON_TYPES = [
-    'ice', 'water', 'grass', 'fire', 'psychic', 'rock', 'normal', 'ground', 'dragon', 'fairy',  # noqa: E501
-    'bug', 'fighting', 'dark', 'ghost', 'poison', 'electric', 'steel', 'flying'  # noqa: E501
+    'ice', 'water', 'grass', 'fire', 'psychic', 'rock', 'normal', 'ground', 'dragon',
+    'fairy', 'bug', 'fighting', 'dark', 'ghost', 'poison', 'electric', 'steel', 'flying'
 ]
 
 
