@@ -23,7 +23,6 @@ logs/**
 !data/01_raw/iris.csv
 
 # also ignore mlruns
-
 mlruns
 
 ##########################
