@@ -1,5 +1,7 @@
 # Pokemon ML Project
 
+Repo used for training purposes at [Indicum](https://indicium.tech/).
+
 ## What should I read before cloning this repo?
 
 This is an example project to understand how to work with Kedro and MLFlow for machine learning projects. If you are new to Kedro and MLFlow, I highly recommend that you follow these getting started tutorials:
@@ -53,7 +55,7 @@ kedro run
 ```
 ### Pipeline structure
 
-The pipeline structure of this project is based on what I think is the optimal way of working in ML projects. Here we have a brief description of what expect in each pipeline.
+The pipeline structure of this project is based on what we think is the optimal way of working in ML projects. Here we have a brief description of what expect in each pipeline.
 
   1) **Pre-processing pipeline**: basic data manipulation such as rename columns, filter rows, select, cast data type.
   2) **Data engineering pipeline**: create new features, handling the missing data, here we have more complex data manipulations
