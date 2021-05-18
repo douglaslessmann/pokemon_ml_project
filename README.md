@@ -18,6 +18,10 @@ In this project, there are two datasets:
  * [The Complete Pokemon Dataset](https://www.kaggle.com/rounakbanik/pokemon). This dataset contains all pokemon stats, which we will use to create our models.
  * [Pokemon image dataset](https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types). From this repo, we will use the images when reporting our models precision.
 
+In order to reproduce this project you will need to have in `data/01_raw/` the `pokemon.csv` from The Complete Pokemon Dataset and a `images` folder, with all pokemon images.
+
+![image (21)](https://user-images.githubusercontent.com/62858527/118688408-6a5b7980-b7dc-11eb-8711-5bfda585b7ff.png)
+
 ## Goal of the project
 
 The mains goal of this project is to help understand how Kedro and MLFLow make your life a lot easier when working in a machine learning project that needs to be reproducible, maintainable e with tracking of the models metrics.
