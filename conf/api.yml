@@ -1,0 +1,68 @@
+routes:
+  # A route is the “name” you use to access endpoints, used in the URL:
+  # www.some_api.com/my_model/
+  my_model:
+    # Catalog reference to .pickle model
+    predictor: MLPredictor
+    # allowed types int, float, str, bool and enum
+    # parameters are used to create a single row pandas df
+    # make sure to declare in the same order as your model needs.
+    parameters:
+      base_total:
+        type: int
+      attack:
+        type: int
+      defense:
+        type: int
+      hp:
+        type: int
+      sp_attack:
+        type: int
+      sp_defense:
+        type: int
+      speed:
+        type: int
+      height_m:
+        type: float
+      weight_kg:
+        type: float
+      number_of_abilities:
+        type: int
+      is_female:
+        type: bool
+      against_bug:
+        type: float
+      against_dark:
+        type: float
+      against_dragon:
+        type: float
+      against_electric:
+        type: float
+      against_fairy:
+        type: float
+      against_fight:
+        type: float
+      against_fire:
+        type: float
+      against_flying:
+        type: float
+      against_ghost:
+        type: float
+      against_grass:
+        type: float
+      against_ground:
+        type: float
+      against_ice:
+        type: float
+      against_normal:
+        type: float
+      against_poison:
+        type: float
+      against_psychic:
+        type: float
+      against_rock:
+        type: float
+      against_steel:
+        type: float
+      against_water:
+        type: float
