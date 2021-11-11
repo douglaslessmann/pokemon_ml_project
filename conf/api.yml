@@ -1,3 +1,19 @@
+# API information
+title: 'Pokemon Type Prediction'
+description: > 
+  \n
+  ## Pokemon type API\n
+  This API can predict which type a pokemon is based on its stats!
+  \n
+  \n🔥💧🍃⚡🪲🪨⚙️🧠🦅🐉👻🥊🧊🧚🏻‍♀️⬛
+
+version: '0.1.0'
+
+# Declare all tags
+tags:
+  inputs:
+    description: "All pokemon stats"
+
 routes:
   # A route is the “name” you use to access endpoints, used in the URL:
   # www.some_api.com/my_model/
@@ -7,6 +23,10 @@ routes:
     # allowed types int, float, str, bool and enum
     # parameters are used to create a single row pandas df
     # make sure to declare in the same order as your model needs.
+
+    # Declare route tags
+    tags: ['users']
+
     parameters:
       base_total:
         type: int
