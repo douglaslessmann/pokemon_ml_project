@@ -35,7 +35,6 @@ from pokemon_ml_project.pipelines import pre_processing as pp
 from pokemon_ml_project.pipelines import data_engineering as de
 from pokemon_ml_project.pipelines import data_science as ds
 from pokemon_ml_project.pipelines import model_metrics as mm
-from pokemon_ml_project.pipelines import indicium_predictor as ind_pred
 from pokemon_ml_project.pipelines import api_pipeline as api
 
 
@@ -50,7 +49,6 @@ def register_pipelines() -> Dict[str, Pipeline]:
     data_engineering_pipeline = de.create_pipeline()
     data_science_pipeline = ds.create_pipeline()
     model_metrics_pipeline = mm.create_pipeline()
-    indicium_predictor_pipeline = ind_pred.create_pipeline()
     api_pipeline = api.create_pipeline()
 
     return {
@@ -58,14 +56,12 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "de": data_engineering_pipeline,
         "ds": data_science_pipeline,
         "mm": model_metrics_pipeline,
-        "ind_pred": indicium_predictor_pipeline,
         "api_pipeline": api_pipeline,
         "__default__": (
             pre_processing_pipeline
             + data_engineering_pipeline
             + data_science_pipeline
             + model_metrics_pipeline
-            + indicium_predictor_pipeline
             + api_pipeline
         ),
     }
