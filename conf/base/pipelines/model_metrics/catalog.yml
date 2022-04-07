@@ -1,6 +1,6 @@
 # Metrics
 classification_metrics:
-    type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
 
 # Plots
 ice_validation_plot:

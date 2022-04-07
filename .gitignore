@@ -129,6 +129,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.ipynb
+notebooks/
 
 # IPython
 .ipython/profile_default/history.sqlite
