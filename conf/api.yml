@@ -16,7 +16,7 @@ tags:
 routes:
   # A route is the “name” you use to access endpoints, used in the URL:
   # www.some_api.com/my_model/
-  my_model:
+  primary_type_classifier:
     # Catalog reference to .pickle model
     predictor: MLPredictor
     # allowed types int, float, str, bool and enum
