@@ -1,7 +1,7 @@
 [tool.kedro]
 package_name = "pokemon_ml_project"
 project_name = "pokemon_ml_project"
-project_version = "0.17.3"
+project_version = "0.18.0"
 
 [tool.isort]
 multi_line_output = 3
@@ -15,3 +15,8 @@ known_third_party = "kedro"
 addopts = """
 --cov-report term-missing \
 --cov src/pokemon_ml_project -ra"""
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
