@@ -1,4 +1,0 @@
-MLPredictor:
-  type: pickle.PickleDataSet
-  filepath: data/09_predictor/MLPredictor.pickle
-  versioned: true
